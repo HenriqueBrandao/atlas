@@ -1,0 +1,173 @@
+@font-face {
+	font-family: SpaceGrotesk;
+	font-weight: 400;
+  src:  url('./inc/SpaceGrotesk-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+				url('./inc/SpaceGrotesk-Regular.woff') format('woff') /* Pretty Modern Browsers */
+}
+
+@font-face {
+	font-family: SpaceGrotesk;
+	font-weight: 500;
+  src:  url('./inc/SpaceGrotesk-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+				url('./inc/SpaceGrotesk-Medium.woff') format('woff') /* Pretty Modern Browsers */
+}
+/*
+@font-face {
+	font-family: LucidaSans;
+	font-weight: bold;
+  src:  url('./inc/LucidaGrandeBold.ttf') format('truetype')
+}
+*/
+
+
+::-moz-selection { /* Code for Firefox */
+	background: #27d290;
+	color:#FFF;
+}
+
+::selection {
+	background:#27d290;
+		color:#FFF;
+
+}
+
+a:hover{
+	text-decoration: none !important;
+}
+
+body{
+	font-family: SpaceGrotesk;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+	max-width: 1020px;
+}
+
+.text-center{
+	text-align: center;
+}
+
+h1{
+  font-size: 44px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.05;
+  letter-spacing: normal;
+  color: #272d3d;
+}
+
+
+h3{
+	font-size: 24px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+h4{
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #272d3d;
+}
+
+
+p{
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: #878b93;
+}
+
+ul li a span.wpml-ls-native{
+	height: 0;
+	display: block;
+}
+
+
+
+.botaoBorda{
+	padding: 15.5px 24px 13.5px 24px;
+	border-radius: 24px;
+	border: solid 2px #ffffff;
+	font-family: SpaceGrotesk;
+	font-size: 16px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	margin-top: 32px;
+	display: inline-block;
+	transition: all .6s ease;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.botaoBorda.corverde{
+	color: #27d290;
+	border-color: #27d290;
+}
+
+.botaoBorda.corverde:hover{
+	background-color: #27d290;
+	border-color: transparent;
+	color:#FFF !important;
+}
+
+
+.botaoBorda.azul{
+	border-color: #2d9eff;
+	color:#2d9eff;
+}
+
+.botaoBorda.azul:hover{
+	border-color: transparent;
+	background-color: #2d9eff;
+	color:#fff;
+}
+
+
+.botaoBorda.corbranco:hover {
+	background-color:#FFF;
+	color:#1464c0;
+}
+
+
+.bolasRedondas{
+	max-width: 477px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+
+
+.container {
+	width: 100%;
+	padding: 0 32px;
+}
+
+}

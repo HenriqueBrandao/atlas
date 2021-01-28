@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="119" height="125" viewBox="0 0 119 125">
+    <defs>
+        <filter id="1mygg0htya" width="120.8%" height="159%" x="-10.4%" y="-29.5%" filterUnits="objectBoundingBox">
+            <feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="10"/>
+            <feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"/>
+                <feMergeNode in="SourceGraphic"/>
+            </feMerge>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g fill="#FFF">
+            <g filter="url(#1mygg0htya)" transform="translate(-234 -464) translate(178 448)">
+                <g>
+                    <g fill-rule="nonzero">
+                        <g>
+                            <path d="M12.267.237c-.299.027-.579.157-.793.367L.419 11.674c-.25.248-.39.586-.386.937v33.214c0 .72.582 1.303 1.3 1.303h24.712c.47.007.906-.24 1.143-.646.236-.406.236-.908 0-1.314-.237-.406-.674-.653-1.143-.645H2.634v-30.61h9.754c.719 0 1.301-.583 1.301-1.302V2.842h21.46V32.8c-.006.47.24.907.645 1.143.405.237.906.237 1.312 0 .405-.236.651-.673.645-1.143V1.54c0-.72-.583-1.303-1.301-1.303H12.388c-.04-.002-.08-.002-.121 0zm-1.18 4.437v6.635H4.464l6.625-6.635zm31.172 31.71c-.67.074-1.173.649-1.159 1.323v13.575l-4.897-5.352c-.264-.292-.645-.45-1.037-.428-.507.027-.951.347-1.14.82-.187.471-.083 1.01.266 1.378l7.154 7.815c.246.267.592.419.955.419.362 0 .709-.152.955-.419l7.153-7.815c.484-.529.45-1.35-.075-1.837-.526-.487-1.346-.457-1.835.067l-4.898 5.352V37.707c.008-.375-.145-.735-.422-.988-.276-.254-.648-.375-1.02-.334z" transform="translate(90 50) translate(0 .415)"/>
+                        </g>
+                    </g>
+                    <text font-family="SpaceGrotesk-Bold, Space Grotesk" font-size="14" font-weight="bold" transform="translate(90 50)">
+                        <tspan x="7" y="32">PPT</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

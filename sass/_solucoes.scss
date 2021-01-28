@@ -1,0 +1,180 @@
+
+#home{
+	 .centerSlideLeft {
+		text-align: center;
+		z-index: 2;
+		position: relative;
+
+		h2{
+			max-width: 513px;
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0;
+			font-weight: normal;
+			font-size: 38px;
+			line-height: 1.16;
+		}
+	}
+}
+
+.BannerSlider .slide2 .centerSlideLeft img {
+    position: relative;
+    height: auto;
+    width: auto;
+    margin-left: auto;
+	margin-right: auto;
+	margin-bottom:35px;
+}
+
+
+
+.svgBotaoSolucoes {
+	border:none !important;
+	padding:0 !important;
+	svg{
+		border: 2px solid #27d290 !important;
+		border-radius: 20px;
+		margin-right:5px;
+
+	}
+}
+
+.svgBotaoSolucoes:hover {
+	background: transparent !important;
+	color: #27d290 !important;
+
+	svg{
+		background: #27d290 !important;
+
+	}
+}
+
+
+.wpml-ls-legacy-dropdown a {
+	display: block;
+	text-decoration: none;
+}
+
+.svgBotaoSolucoes{
+	position: relative;
+	padding-left:53px !important;
+	text-decoration: none !important;
+	svg{
+		position: absolute;
+		left:0;
+		top:0;
+		bottom:0;
+		margin: auto 0;
+		transition: all .6s ease;
+	}
+
+	&:hover{
+		svg{
+			g path:nth-of-type(2){
+				stroke:#FFF;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+.row{
+	.popHomeSol.solucoes{
+		position: fixed;
+		height:100%;
+		display: none;
+		align-items: center;
+		justify-content: center;
+
+		.brancoBG{
+			max-width: 1020px;
+		}
+
+
+	}
+
+	&.visivel{
+		.popHomeSol.solucoes{
+
+			display: flex;
+
+
+
+		}
+	}
+}
+
+
+.popHomeSol{
+	background: rgba(0,0,0,.4);
+}
+
+
+
+#solucoesPage{
+	padding-top:150px;
+
+	.row{
+		display:flex;
+		margin-bottom: 170px;
+
+		.col-sm-6{
+			display:flex;
+			align-items: center;
+			justify-content: center;
+			.imgWrapper{
+				max-width:375px;
+			}
+			.textWrapper{
+				max-width:375px;
+				h2{
+				font-size: 44px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.05;
+				letter-spacing: normal;
+				color: #1464c0;
+				background: linear-gradient(to bottom, #1464c0, #27b37d);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
+				margin-bottom: 30px;
+				}
+			}
+		}
+
+
+		&:nth-of-type(even){
+			.col-sm-6:nth-of-type(2){
+				order: -1;
+			}
+		}
+	}
+
+
+}
+
+
+
+.solucaoPaginePaddig{
+	padding: 72px 0 88px 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+	#solucoesPage .row {
+		display: block;
+		.col-sm-6 {
+			text-align: center;
+		}
+	}
+
+}

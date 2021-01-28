@@ -1,0 +1,440 @@
+#footer {
+	background-color: #20242e;
+	float: left;
+	width: 100%;
+
+	.site-footer {
+		padding: 40px 0 90px 0;
+	}
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.logoFooter {
+		margin-top: 40px;
+		svg {
+			path {
+				fill: #878b93;
+			}
+			mask {
+				display: none;
+			}
+		}
+	}
+	.footerBottom {
+		margin-top: auto;
+
+		.botaoBorda{
+			margin-top: 0;
+			margin-bottom: 26px;
+			padding-left: 41px !important;
+			padding-right: 41px;
+
+			&:hover{
+				background:#FFF;
+				color:#20242e;
+			}
+		}
+
+		.copyRight {
+			margin-top: 70px;
+
+			p {
+				margin-bottom: 0;
+			}
+
+			.poliPriva {
+				color: #fff;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.38;
+				span {
+					padding: 0 8px;
+				}
+				a {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+	.menuFooter ul {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 0;
+
+		&.sub-menu {
+			display: block !important;
+		}
+
+		li {
+			list-style: none;
+			padding: 0;
+			width: 100%;
+			float: left;
+			flex-basis: 50%;
+			margin-top: 11px !important;
+
+			a {
+				font-size: 24px;
+				font-weight: 600;
+				color: #fff;
+				margin-top: 40px;
+				display: block;
+			}
+
+			.sub-menu {
+				li {
+					width: 100%;
+					a {
+						margin-top: 0;
+						font-size: 16px;
+						font-weight: normal;
+					}
+				}
+			}
+		}
+	}
+
+	.contacFooterWrapper {
+		display: flex;
+		align-items: center;
+
+		.linkedin {
+			float: left;
+			margin-right: 24px;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			svg {
+				fill: #fff;
+			}
+		}
+		.contacFooter {
+			float: left;
+
+			a {
+				display: block;
+				color: #fff;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.38;
+				letter-spacing: normal;
+				color: #ffffff;
+			}
+		}
+	}
+
+	.ladoDirFooter {
+		max-width: 292px;
+		padding-left: 50px;
+	}
+}
+
+.contactForm {
+	position: fixed;
+	background: transparent;
+	opacity: 0;
+	visibility: hidden;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 9999;
+
+	.contactWraooer {
+		background: #fff;
+		width: 100%;
+		padding: 104px 0 137px 0;
+		position: relative;
+		opacity: 0;
+		transform: translateY(20px);
+		transition: all 0.6s ease;
+		height: 100%;
+    display: flex;
+    align-items: center;
+
+		.formWrapper {
+			max-width: 773px;
+			width: 100%;
+			margin: 0 auto;
+			position: relative;
+
+			.col-sm-6,
+			.col-sm-12 {
+				position: inherit;
+
+				.wpcf7-form-control-wrap {
+					position: inherit;
+				}
+			}
+
+			h1 {
+				margin-bottom: 0;
+				margin-top: 0;
+			}
+
+			.closeContact {
+				position: absolute;
+				top: -63px;
+				right: -187px;
+				cursor: pointer;
+			}
+
+			::placeholder {
+				font-family: SpaceGrotesk;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.63;
+				letter-spacing: normal;
+				color: #878b93;
+			}
+
+			input {
+				width: 100%;
+				height: 48px;
+				border-radius: 24px;
+				border: solid 2px #e3e3e5;
+				margin-bottom: 24px;
+				padding: 11px 16px;
+				outline: none !important;
+				font-family: SpaceGrotesk;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.63;
+				letter-spacing: normal;
+				color: #878b93;
+			}
+
+			textarea {
+				width: 100%;
+				max-width: 100%;
+				min-width: 100%;
+				max-height: 227px;
+				min-height: 227px;
+				border-radius: 24px;
+				padding: 11px 16px;
+				border: solid 2px #e3e3e5;
+				outline: none !important;
+				font-family: SpaceGrotesk;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.63;
+				letter-spacing: normal;
+				color: #878b93;
+			}
+
+			.wpcf7-submit {
+				opacity: 0.5;
+				border-radius: 24px;
+				background-color: #27d290;
+				float: right;
+				width: 218px;
+				height: 48px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: #fff !important;
+				border: none;
+				text-transform: uppercase;
+				font-weight: 500;
+				margin-bottom: 0;
+			}
+
+			.wpcf7-not-valid-tip {
+				position: absolute;
+				bottom: 5px;
+				left: 5px;
+				font-size: 16px;
+				font-weight: normal;
+				font-stretch: normal;
+				font-style: normal;
+				line-height: 1.63;
+				letter-spacing: normal;
+				color: #de3e3e;
+
+				&:nth-of-type(2) {
+					margin-bottom: -20px;
+				}
+				&:nth-of-type(3) {
+					margin-bottom: -40px;
+				}
+			}
+
+			.your-email {
+				.wpcf7-not-valid-tip {
+					bottom: -15px;
+				}
+			}
+
+			.wpcf7-not-valid {
+				border: solid 2px #de3e3e !important;
+			}
+			.invalid .wpcf7-response-output {
+				display: none !important;
+			}
+		}
+	}
+}
+
+.contactOpen {
+	.contactForm {
+		opacity: 1;
+		visibility: visible;
+
+		.contactWraooer {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+}
+
+
+
+#cookie-notice {
+	visibility: hidden;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	max-width: none;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	z-index:99;
+}
+
+.wrapperCookie {
+	font-family: inherit;
+	background: #fff;
+	padding: 45px 48px 32px 48px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 24px;
+	margin: 0;
+	z-index: 1000000;
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 996px;
+	position: relative;
+
+	p {
+		font-family: SpaceGrotesk;
+		font-size: 16px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.63;
+		letter-spacing: normal;
+		color: #878b93;
+	}
+
+	.botaoBorda{
+		float:right;
+		width:218px;
+		height:48px;
+		background: #27d290;
+		color:#FFF;
+		cursor: pointer;
+		margin-top: 5px;
+	}
+	.closeCookie{
+		position: absolute;
+		top:23px;
+		right:23px;
+		cursor: pointer;
+	}
+
+	h1{
+		font-family: SpaceGrotesk;
+		font-size: 32px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.44;
+		letter-spacing: normal;
+		color: #272d3d;
+	}
+}
+#cookie-notice .containerMaze {
+	display: flex;
+	align-items: center;
+}
+
+
+#cookie-notice button {
+	color: inherit;
+	border: 0;
+	padding: 12px 24px;
+	margin-top: 0;
+	float: right;
+	border-radius: 0;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	margin-left: auto;
+}
+
+#cookie-notice button h5 {
+	color: #fff;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+
+
+	.wrapperCookie {
+			width: calc(100% - 64px) !important;
+					padding: 40px 30px 32px 30px;
+
+					.botaoBorda {
+							width: 200px;
+							height: 38px;
+							line-height: 38px;
+							padding: 0;
+							border-radius: 19px;
+					}
+
+			p {
+					font-size: 13px;
+					line-height: 1.63;
+			}
+
+			 h1 {
+					font-size: 22px;
+			}
+	}
+
+
+}

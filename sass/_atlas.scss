@@ -1,0 +1,535 @@
+
+.dirTexto{
+	.right{
+		p{
+			margin-left:auto;
+		}
+	}
+}
+
+
+.svgBotaoAtlas{
+	border-color: #FFF !important;
+	color:#FFF !important;
+	margin-left: 0;
+    margin-right: auto;
+	svg{
+		g path:nth-of-type(2){
+			stroke:#FFF;
+		}
+	}
+
+	&:hover{
+		border-color: #27b37d !important;
+
+	}
+}
+
+#tituloDescri2{
+	color: #272d3d !important;
+}
+.sectionQuem.visivel{
+	.popHomeSol{
+		display: flex;
+
+		.brancoBG {
+			height: auto;
+			overflow: auto;
+			max-height: 100%;
+		}
+	}
+}
+
+.pagSo{
+	position: fixed !important;
+}
+
+
+
+.flexAtlas{
+	height: 90vh;
+    align-items: normal;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.popHomeSol.atlas{
+	align-items: center;
+    justify-content: center;
+    max-height: 100vh;
+}
+
+
+
+.equipa .minus40{
+	padding-bottom:40px;
+}
+
+.atlasPage{
+
+	.colaboradoresSec{
+		background:#FFF;
+		padding-top:72px;
+		h2{
+			padding-bottom:20px;
+		}
+	}
+
+	#missao{
+		p{
+			font-size:24px;
+			line-height: 1.17;
+		}
+	}
+
+	#missao2{
+		padding: 64px 0 88px 0;
+  background-color: #1464c0;
+
+			.verde h2,
+			.verde p {
+			color:#fff;
+			}
+	}
+
+	#equipa{
+		margin-top:0;
+	}
+
+
+	#scrollDown{
+		bottom: auto;
+		top: 100vh;
+		margin-top: -166px;
+	}
+	.flex{
+		display: flex;
+	}
+
+	.flexAtlas{
+		.flex{
+			align-items: center;
+		}
+	}
+
+	.flexCenter{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.missao .row{
+		max-width: 700px;
+		text-align: center;
+
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.mt200{
+		margin-top:160px;
+	}
+
+	.mb20{
+		margin-bottom:20px;
+	}
+
+	.size24{
+		font-size:24px !important;
+	}
+
+	.bolasRedondas{
+		img:nth-of-type(1){
+			width:290px;
+			display:block;
+		}
+		img:nth-of-type(2){
+			width:173px;
+			margin-left:auto;
+			display:block;
+			margin-top:-60px;
+		}
+		img:nth-of-type(3){
+			width:222px;
+			margin-right:auto;
+			display:block;
+			margin-top:-60px;
+
+		}
+	}
+
+
+
+	.verde{
+		h2, p{
+			color:#27b37d;
+		}
+	}
+
+	.textoPreto{
+		margin-top:0;
+		h2, p{
+			color:#272d3d
+			;
+		}
+	}
+
+	.firstSectionQuem{
+		padding-top:150px;
+	}
+
+	.sectionQuem{
+		position: relative;
+	}
+
+	h2{
+		font-family: SpaceGrotesk;
+		font-size: 44px;
+		font-weight: normal;
+		font-stretch: normal;
+		font-style: normal;
+		line-height: 1.05;
+		letter-spacing: normal;
+		color: #ffffff;
+		margin-top:0;
+		margin-bottom:32px;
+	}
+
+	p{
+		color: #ffffff;
+	}
+/*
+	.dirTexto{
+		p, h2{
+			max-width: 375px;
+		}
+	}
+*/
+
+}
+
+
+
+
+
+.missao{
+	margin-top:100px;
+}
+
+
+
+.equipa{
+	background-color: #eef0f3;
+	margin-top:120px;
+	padding-top: 72px;
+	padding-bottom:0s;
+
+
+	.minus40 {
+    flex-wrap: wrap;
+    display: flex;
+		max-width: 800px;
+		margin-left:auto;
+		margin-right: auto;
+
+		.col-sm-25 {
+			flex-basis: 33.333333%;
+		}
+}
+
+
+	h2{
+		color:#272d3d;
+	}
+}
+
+
+
+
+
+
+.minus40{
+	margin-left: -165px;
+	margin-right: -165px;
+	text-align: center;
+}
+
+.col-sm-25{
+	width:244px;
+	padding: 0 40px 40px 40px;
+	display: inline-block;
+	.imageEquipa{
+		position: relative;
+		padding-bottom: 147%;
+		box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+		border-radius: 24px;
+		overflow: hidden;
+			img{
+			position: absolute;
+			width:100%;
+			height:100%;
+			object-fit: cover;
+			top:0;
+			left:0;
+			transition: all .6s ease;
+
+			&:nth-of-type(2){
+				opacity: 0;
+				transition: all .7s ease;
+			}
+		}
+
+		&:hover{
+			img{
+				&:nth-of-type(2){
+					opacity: 1;
+				}
+			}
+		}
+	}
+
+	.equipa1{
+		opacity: 1;
+		z-index:1;
+	}
+	.equipa2{
+		opacity: 0;
+		z-index:2;
+	}
+	.cargoNome{
+		position: absolute;
+		box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.15);
+		background-color: rgba(0, 0, 0, 0.5);
+		bottom:0;
+		width:100%;
+		opacity: 0;
+		z-index: 3;
+		transition: all .6s ease;
+		padding:12px;
+		text-align: left;
+
+		h4{
+			font-family: SpaceGrotesk;
+			font-size: 14px;
+			font-weight: 600;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: normal;
+			letter-spacing: normal;
+			color: #ffffff;
+			margin:0;
+
+			&.cargo{
+				font-weight: normal;
+				margin-top:5px;
+			}
+		}
+
+	}
+
+
+	&:hover{
+		.cargoNome{
+			opacity: 1;
+
+		}
+		.equipa1{
+			opacity: 0;
+		}
+		.equipa2{
+			opacity: 1;
+		}
+	}
+
+}
+
+
+
+
+
+.popEquipa{
+	position: fixed;
+	width:100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	pointer-events: none;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	z-index: 10;
+
+	.equipWrapper{
+		width:100%;
+		background:#FFF;
+		padding:104px 5%;
+		height:auto;
+		position: relative;
+		text-align: left;
+    max-height: 100vh;
+		overflow: auto;
+		min-height:100vh;
+		h1{
+			font-size: 44px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.05;
+			letter-spacing: normal;
+			color: #27b37d;
+			margin:0;
+		}
+
+		.col-md-6 img{
+			display:block;
+			margin: 0 auto;
+			max-width:400px;
+			border-radius: 7%;
+		}
+
+		h3{
+			font-size: 16px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.63;
+			letter-spacing: normal;
+			color: #878b93;
+			margin-bottom:0;
+			margin-top:8px;
+		}
+		h4{
+			font-size: 32px;
+			font-weight: 500;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.19;
+			letter-spacing: normal;
+			color: #272d3d;
+			margin-bottom: 26px;
+			margin-top:0;
+			max-width: 90%;
+		}
+		.mt80{
+			margin-top:80px;
+			display: flex;
+			align-items: center;
+		}
+
+		p{
+			font-size: 16px;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 1.63;
+			letter-spacing: normal;
+			color: #272d3d;
+			margin-top:0;
+			max-width: 90%;
+		}
+		.closeTeam{
+			position: absolute;
+			top: 47px;
+			right: 71px;
+			cursor: pointer;
+		}
+
+	}
+}
+
+.equipaOpen{
+	position: relative;
+	z-index: 9999;
+	.popEquipa{
+		opacity: 1;
+		pointer-events: all;
+	}
+}
+
+
+
+body.noscroll{
+	overflow: hidden;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+	.minus40 {
+		margin-left: 0;
+		margin-right: 0;
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 991px) {
+	.atlasPage .flex.dirTexto  {
+		display: block;
+	}
+
+
+
+	#abordagem{
+		margin-top:50px;
+	}
+
+	.minus40 {
+
+		.col-sm-25 {
+			flex-basis: 50% !important;
+
+			&.colaboradores{
+				flex-basis: 50% !important;
+			}
+		}
+}
+
+	.firstSectionQuem .flexCenter{
+		display: none;
+	}
+
+	.atlasPage .dirTexto p, .atlasPage .dirTexto h2 {
+    max-width: none;
+	}
+
+}
+
+
+
+
+
+
+.col-sm-25.colaboradores{
+	flex-basis: 33.333% !important;
+	.imageEquipa{
+		background-color: #27b37d;
+		padding-bottom: 147%;
+
+		img{
+			width: 60px;
+			height: auto;
+			object-fit: contain;
+			margin: auto;
+			bottom: 0;
+			right: 0;
+		}
+
+		&:hover{
+			img{
+				top:-40px;
+			}
+		}
+	}
+}
